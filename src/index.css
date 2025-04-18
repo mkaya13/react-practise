@@ -1,0 +1,54 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #213547;
+  background-color: #ffffff;
+
+}
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+  
+.counterHolder {
+  display:flex;
+  flex-direction: column;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically */
+  gap: 2rem;
+}
+
+.counterOperations {
+  display: flex;
+  gap: 1rem;
+}
+
+.reactCard {
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1)
+
+}
+
+.reactCard .reactCardImage {
+  width: 10%;
+  height: auto;
+  /* border-radius: 50%; To have a circular image */  
+  margin-bottom: 1rem;
+}
+
+nav {
+  display:flex;
+  flex-direction: column;
+}
+
+nav ul {
+  display:flex;
+  list-style: none;
+  gap: 5rem;
+} 
