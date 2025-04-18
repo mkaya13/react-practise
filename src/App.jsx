@@ -8,17 +8,28 @@ import Card from './cards/Card.jsx'
 import Student from './components/Student/Student.jsx'
 import CounterOperations from './components/CounterOperations.jsx'
 import UserGreeting from './components/UserGreeting/UserGreeting.jsx'
-import Fruits from './components/Fruits/Fruits.jsx'
+import List from './components/List/List.jsx'
 
 function App() {
   const [counter, setCounter] = useState(0);
+
+  const fruits = [{ id: 1, name: "banana", calories: 157},
+                 { id: 2, name: "apple", calories: 95},
+                 { id: 3, name: "orange", calories: 63}]
+
+  const vegetables = [{ id: 4, name: "potato", calories: 110},
+                      { id: 5, name: "celery", calories: 15},
+                      { id: 6, name: "carrot", calories: 25}]
+
+                      
 
   return (
     <>
       <Navbar />
       <CounterOperations />
-      <Food />
-      <Fruits />
+      <Food/>
+      <List items={fruits} category="Fruits"/>
+      <List items={vegetables} category="Vegetables"/>
       <Card name="ReactCard"/>
       <Student name="Spongebob" age={30} isStudent = {false}/>
       <Student name="George" age={20} isStudent = {true}/>

@@ -1,0 +1,19 @@
+.item-lists {
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 1rem;
+    text-align:center;
+    border: 3px solid;
+    border-radius: 0.5rem;
+    background-color: palegoldenrod;
+}
+
+.item-lists ul {
+    display:flex;
+    gap: 1rem;
+}
+
+.item-lists li {
+    list-style: none;
+}
