@@ -10,6 +10,7 @@ import CounterOperations from './components/CounterOperations.jsx'
 import UserGreeting from './components/UserGreeting/UserGreeting.jsx'
 import List from './components/List/List.jsx'
 import Button from './components/Button/Button.jsx'
+import UseStatePractise from './components/UseStatePractise/UseStatePractise.jsx'
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -27,6 +28,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <UseStatePractise />
       <CounterOperations />
       <Food/>
       <List items={fruits} category="Fruits"/>
