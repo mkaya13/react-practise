@@ -9,6 +9,7 @@ import Student from './components/Student/Student.jsx'
 import CounterOperations from './components/CounterOperations.jsx'
 import UserGreeting from './components/UserGreeting/UserGreeting.jsx'
 import List from './components/List/List.jsx'
+import Button from './components/Button/Button.jsx'
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -35,6 +36,7 @@ function App() {
       <Student name="George" age={20} isStudent = {true}/>
       <UserGreeting isLoggedIn={true} username="Memocan"/>
       <UserGreeting isLoggedIn={false} username="Mehmet"/>
+      <Button />
       <Footer />
     </>
   )
