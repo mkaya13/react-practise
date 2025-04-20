@@ -13,6 +13,7 @@ import Button from './components/Button/Button.jsx'
 import UseStatePractise from './components/UseStatePractise/UseStatePractise.jsx'
 import OnChangeEventHandler from './components/OnchangeEventHandler/OnchangeEventHandler.jsx'
 import ColorPicker from './components/ColorPicker/ColorPicker.jsx'
+import UpdateObjectsInState from "./components/UpdateObjectsInState/UpdateObjectsInState.jsx";
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -30,6 +31,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <UpdateObjectsInState />
       <ColorPicker />
       <OnChangeEventHandler />
       <UseStatePractise />
