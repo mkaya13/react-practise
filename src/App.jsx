@@ -16,6 +16,8 @@ import ColorPicker from './components/ColorPicker/ColorPicker.jsx'
 import UpdateObjectsInState from "./components/UpdateObjectsInState/UpdateObjectsInState.jsx";
 import UpdateArraysInState from './components/UpdateArraysInState/UpdateArraysInState.jsx'
 import UpdateObjectsOfArray from './components/UpdateObjectsOfArray/UpdateObjectsOfArray.jsx'
+import UseEffectComponent from './components/useEffectComponent/useEffectComponent.jsx'
+import UseEffectWidthComponent from './components/UseEffectWidthComponent/UseEffectWidthComponent.jsx'
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -33,6 +35,8 @@ function App() {
   return (
     <>
       <Navbar />
+      <UseEffectWidthComponent />
+      <UseEffectComponent />
       <UpdateObjectsOfArray />
       <UpdateArraysInState />
       <UpdateObjectsInState />
