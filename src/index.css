@@ -3,15 +3,24 @@
   line-height: 1.5;
   font-weight: 400;
   color: #213547;
+  /*
   background-color: #ffffff;
-
+  background-image: url(./assets/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  */
 }
 
 #root {
-    max-width: 1280px;
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
+}
+
+body {
+  margin: 0;
 }
   
 .counterHolder {

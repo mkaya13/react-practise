@@ -18,6 +18,7 @@ import UpdateArraysInState from './components/UpdateArraysInState/UpdateArraysIn
 import UpdateObjectsOfArray from './components/UpdateObjectsOfArray/UpdateObjectsOfArray.jsx'
 import UseEffectComponent from './components/useEffectComponent/useEffectComponent.jsx'
 import UseEffectWidthComponent from './components/UseEffectWidthComponent/UseEffectWidthComponent.jsx'
+import DigitalClockComponent from './components/DigitalClockComponent/DigitalClockComponent.jsx'
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -35,6 +36,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <DigitalClockComponent />
       <UseEffectWidthComponent />
       <UseEffectComponent />
       <UpdateObjectsOfArray />
